@@ -21,9 +21,9 @@
         });
         // Scroll reveal
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => {
+    entries.forEach((e) => {
         if (e.isIntersecting) {
-            setTimeout(() => e.target.classList.add('visible'), i * 100);
+            e.target.classList.add('visible');
             observer.unobserve(e.target);
         }
     });
