@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertexity - AI Crypto Arbitrage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== MOBILE MENU ==================== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-top">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="sertexity" class="logo-icon">
+            </a>
+            <button class="mobile-close-btn" id="menuClose" aria-label="Close menu">&#x2715;</button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#how-it-works">How it works</a>
+            <a href="#advantages">Advantages</a>
+            <a href="#get-started">Platform</a>
+        </nav>
+    </div>
+
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <a href="#" class="logo">
+            <img src="images/logo.svg" alt="sertexity" class="logo-icon">
+        </a>
+        <nav class="nav-links">
+            <a href="#how-it-works">How it works</a>
+            <a href="#advantages">Advantages</a>
+            <a href="#get-started">Platform</a>
+        </nav>
+        <div class="header-right">
+            <button class="sign-up-btn">Sign Up</button>
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+        <section class="hero">
+            <img src="images/model.svg" alt="Model" class="hero-center-img">
+            <img src="images/main-trade.svg" alt="Trade Graph" class="mobile-hero-graph">
+
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span>EARN WITH</span>
+                    <span>AI-POWERED</span>
+                    <span class="highlight italic-container">
+                        <span class="italic">CRYPTO</span>
+                        <img src="images/main-trade.svg" alt="chart" class="chart-icon">
+                    </span>
+                    <span class="highlight arbitrage-text">ARBITRAGE</span>
+                </h1>
+                <button class="start-earning-btn">Start Earning</button>
+                <p class="sec-text">SEC (U.S. Securities and Exchange Commission) approval CIK: 0002134368</p>
+            </div>
+
+            <div class="hero-right">
+                <div class="glass-card">
+                    <img src="images/btc.png" alt="btc" class="coin-bg left">
+                    <img src="images/eth.png" alt="eth" class="coin-bg right">
+                    <div class="card-badge-container">
+                        <div class="arrow-circle"><img src="images/arrow.svg" alt="arrow"></div>
+                        <div class="badge-pill">TRADES 24/7</div>
+                    </div>
+                    <p class="card-text">Our algorithms analyze the market and <strong>execute trades 24/7</strong> — fully automated.</p>
+                </div>
+
+                <div class="glass-card">
+                    <img src="images/usdt.png" alt="usdt" class="coin-bg left">
+                    <img src="images/sol.png" alt="sol" class="coin-bg right">
+                    <div class="card-badge-container">
+                        <div class="arrow-circle"><img src="images/arrow.svg" alt="arrow"></div>
+                        <div class="badge-pill">PROFIT</div>
+                    </div>
+                    <p class="card-text"><strong>Generate 0.4% to 0.6% daily by capturing price</strong> differences across crypto exchanges.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile cards -->
+        <section class="mobile-cards" id="mobileCards">
+            <div class="glass-card">
+                <img src="images/btc.svg" alt="btc" class="coin-bg left">
+                <img src="images/eth.svg" alt="eth" class="coin-bg right">
+                <div class="card-badge-container">
+                    <div class="arrow-circle"><img src="images/arrow.svg" alt="arrow"></div>
+                    <div class="badge-pill">TRADES 24/7</div>
+                </div>
+                <p class="card-text">Our algorithms analyze the market and <strong>execute trades 24/7</strong> — fully automated.</p>
+            </div>
+
+            <div class="glass-card">
+                <img src="images/usdt.svg" alt="usdt" class="coin-bg left">
+                <img src="images/sol.svg" alt="sol" class="coin-bg right">
+                <div class="card-badge-container">
+                    <div class="arrow-circle"><img src="images/arrow.svg" alt="arrow"></div>
+                    <div class="badge-pill">PROFIT</div>
+                </div>
+                <p class="card-text"><strong>Generate 0.4% to 0.6% daily by capturing price</strong> differences across crypto exchanges.</p>
+            </div>
+        </section>
+
+        <!-- ==================== HOW IT WORKS (blog-1) ==================== -->
+        <section id="how-it-works" class="section-wrap">
+            <div class="container">
+                <h2 class="section-title">How it works</h2>
+                <div class="how-cards-grid">
+
+                    <div class="how-card">
+                        <div class="how-card-header">
+                            <h3 class="how-card-title">Make a deposit</h3>
+                        </div>
+                        <div class="how-card-body">
+                            <div class="how-icon-wrapper">
+                                <div class="how-icon-placeholder">
+                                    <img src="images/money.svg" alt="money">
+                                </div>
+                            </div>
+                            <p class="how-card-description">Fund your account starting from $50 and join the shared liquidity pool.</p>
+                        </div>
+                    </div>
+
+                    <div class="how-card">
+                        <div class="how-card-header">
+                            <h3 class="how-card-title">AI analyzes the market</h3>
+                        </div>
+                        <div class="how-card-body">
+                            <div class="how-icon-wrapper">
+                                <div class="how-icon-placeholder">
+                                    <img src="images/cyclee.svg" alt="cyclee">
+                                </div>
+                            </div>
+                            <p class="how-card-description">The system continuously scans multiple exchanges in real time, identifying arbitrage opportunities.</p>
+                        </div>
+                    </div>
+
+                    <div class="how-card">
+                        <div class="how-card-header">
+                            <h3 class="how-card-title">Automated execution</h3>
+                        </div>
+                        <div class="how-card-body">
+                            <div class="how-icon-wrapper">
+                                <div class="how-icon-placeholder">
+                                    <img src="images/param.svg" alt="param">
+                                </div>
+                            </div>
+                            <p class="how-card-description">Trades are executed instantly using high-speed algorithms and optimized routing.</p>
+                        </div>
+                    </div>
+
+                    <div class="how-card how-card-dark">
+                        <div class="how-card-header">
+                            <h3 class="how-card-title">Earn profits</h3>
+                        </div>
+                        <div class="how-card-body">
+                            <div class="how-icon-wrapper">
+                                <div class="how-icon-placeholder" style="border-radius:4px;">
+                                    <img src="images/badge.svg" alt="badge">
+                                </div>
+                            </div>
+                            <p class="how-card-description">Income is generated daily and can be withdrawn at any time once it reaches $10.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PLATFORM ADVANTAGES (blog-2) ==================== -->
+        <section id="advantages" class="section-wrap">
+            <div class="container" style="max-width:1300px;">
+                <h2 class="section-title">Platform advantages</h2>
+
+                <div class="adv-top-row">
+                    <div class="adv-card adv-big-card">
+                        <div class="adv-image-placeholder">
+                            <img src="images/advantage1.svg" alt="adv">
+                        </div>
+                        <div class="adv-card-content">
+                            <h3>Daily income</h3>
+                            <p>Average returns range from 0.4% to 0.6% per day, depending on market conditions.</p>
+                        </div>
+                    </div>
+
+                    <div class="adv-card adv-big-card">
+                        <div class="adv-image-placeholder adv-bg-dark-img">
+                            <img src="images/advantage2.svg" alt="adv">
+                        </div>
+                        <div class="adv-card-content">
+                            <h3>Capital protection system</h3>
+                            <p>Built-in risk management, position limits, and algorithmic capital allocation.</p>
+                        </div>
+                    </div>
+
+                    <div class="adv-card adv-big-card">
+                        <div class="adv-image-placeholder">
+                            <img src="images/advantage3.svg" alt="adv">
+                        </div>
+                        <div class="adv-card-content">
+                            <h3>Fully automated system</h3>
+                            <p>No trading experience or market knowledge is required.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adv-bottom-row">
+                    <div class="adv-card adv-small-card">
+                        <div class="adv-small-card-header">
+                            <h3>AI-powered<br>trading</h3>
+                            <div class="adv-icon-placeholder"><img src="images/advantage4.png" alt="adv"></div>
+                        </div>
+                        <p>The system analyzes data, makes decisions, and executes trades without user involvement.</p>
+                    </div>
+
+                    <div class="adv-card adv-small-card">
+                        <div class="adv-small-card-header">
+                            <h3>Shared liquidity<br>pool</h3>
+                            <div class="adv-icon-placeholder"><img src="images/adavantage5.svg" alt="adv"></div>
+                        </div>
+                        <p>User funds are combined and dynamically allocated across the most efficient opportunities.</p>
+                    </div>
+
+                    <div class="adv-card adv-small-card">
+                        <div class="adv-small-card-header">
+                            <h3>Instant<br>withdrawals</h3>
+                            <div class="adv-icon-placeholder"><img src="images/advantage5.svg" alt="adv"></div>
+                        </div>
+                        <p>Access your profits at any time once the minimum withdrawal threshold is reached.</p>
+                    </div>
+
+                    <div class="adv-card adv-small-card">
+                        <div class="adv-small-card-header">
+                            <h3>Market-neutral<br>strategy</h3>
+                            <div class="adv-icon-placeholder"><img src="images/adavntage6.svg" alt="adv"></div>
+                        </div>
+                        <p>Profit is generated from price differences rather than market direction.</p>
+                    </div>
+
+                    <div class="adv-card adv-small-card">
+                        <div class="adv-small-card-header">
+                            <h3>Mobile<br>application</h3>
+                            <div class="adv-icon-placeholder"><img src="images/advantage7.svg" alt="adv"></div>
+                        </div>
+                        <p>Manage your account and monitor performance from any device.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== GET STARTED + READY TO EARN (blog-3) ==================== -->
+        <section id="get-started" class="section-wrap">
+            <div class="container">
+
+                <div class="get-started-section">
+                    <h2 class="section-title">Get started</h2>
+                    <div class="gs-cards-grid">
+
+                        <div class="gs-card">
+                            <div class="gs-card-content">
+                                <div class="gs-card-header">
+                                    <h3>Create an account</h3>
+                                    <div class="gs-icon-placeholder"><img src="images/start1.svg" alt=""></div>
+                                </div>
+                                <p>Register quickly and access your personal dashboard.</p>
+                            </div>
+                            <div class="gs-card-footer bg-blue">
+                                <span>STEP 1</span>
+                                <img src="images/arow.svg" alt="" class="arow-img">
+                            </div>
+                        </div>
+
+                        <div class="gs-card">
+                            <div class="gs-card-content">
+                                <div class="gs-card-header">
+                                    <h3>Fund your balance</h3>
+                                    <div class="gs-icon-placeholder"><img src="images/start2.svg" alt=""></div>
+                                </div>
+                                <p>Deposit from $50 using supported cryptocurrencies.</p>
+                            </div>
+                            <div class="gs-card-footer bg-blue">
+                                <span>STEP 2</span>
+                                <img src="images/arow.svg" alt="" class="arow-img">
+                            </div>
+                        </div>
+
+                        <div class="gs-card">
+                            <div class="gs-card-content">
+                                <div class="gs-card-header">
+                                    <h3>Activate the system</h3>
+                                    <div class="gs-icon-placeholder"><img src="images/start3.svg" alt=""></div>
+                                </div>
+                                <p>Your funds are automatically allocated into arbitrage strategies.</p>
+                            </div>
+                            <div class="gs-card-footer bg-blue">
+                                <span>STEP 3</span>
+                                <img src="images/arow.svg" alt="" class="arow-img">
+                            </div>
+                        </div>
+
+                        <div class="gs-card">
+                            <div class="gs-card-content">
+                                <div class="gs-card-header">
+                                    <h3>Start<br>earning</h3>
+                                    <div class="gs-icon-placeholder"><img src="images/start4.svg" alt=""></div>
+                                </div>
+                                <p>Income is generated daily and available for withdrawal at any time.</p>
+                            </div>
+                            <div class="gs-card-footer bg-dark">
+                                <span>STEP 4</span>
+                                <img src="images/arow.svg" alt="" class="arow-img">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <section class="ready-section">
+                    <div class="ready-text-content">
+                        <h2>Ready to start earning?</h2>
+                        <p>Join an AI-driven arbitrage platform and start benefiting from crypto market opportunities without complexity or trading experience.</p>
+                        <button class="btn-start">Start Earning</button>
+                        <p class="disclaimer">SEC (U.S. Securities and Exchange Commission) approval CIK: 0002134368</p>
+                    </div>
+                    <div class="ready-graph">
+                        <div class="graph-placeholder">
+                            <img src="images/graph.svg" alt="graph">
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER SECTION (footer.html) ==================== -->
+    <div class="footer-section">
+        <div class="container">
+            <main class="hero-section-footer">
+                <div class="visual-content">
+                    <div class="globe-wrapper">
+                        <img src="images/globus.svg" alt="Sertexity Globe">
+                    </div>
+                    <div class="feature-cards">
+                        <div class="f-card f-card-1">
+                            <img src="images/footer1.svg" alt="icon" class="f-card-icon">
+                            <span>Institutional-grade<br>infrastructure</span>
+                        </div>
+                        <div class="f-card f-card-2">
+                            <img src="images/footer2.png" alt="icon" class="f-card-icon">
+                            <span>Scalable liquidity<br>model</span>
+                        </div>
+                        <div class="f-card f-card-3">
+                            <img src="images/footer3.svg" alt="icon" class="f-card-icon">
+                            <span>AI-driven decision<br>engine</span>
+                        </div>
+                        <div class="f-card f-card-4">
+                            <img src="images/footer4.png" alt="icon" class="f-card-icon">
+                            <span>24/7 automated trading<br>system</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-content-footer">
+                    <h1 class="main-title-footer">Why Sertexity?</h1>
+                    <p class="subtitle-footer">Officially registered company<br>in the United States</p>
+                    <button class="cta-button">Start Earning</button>
+                    <span class="sec-text-footer">SEC (U.S. Securities and Exchange<br>Commission) approval CIK: 0002134368</span>
+                </div>
+            </main>
+
+            <div class="footer-area">
+                <div class="brand-logo-wrapper">
+                    <img src="images/logo.svg" alt="Sertexity Logo" class="brand-logo">
+                </div>
+                <footer class="site-footer">
+                    <div class="footer-links">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="social-links">
+                        <img src="images/in.svg" alt="LinkedIn" class="social-icon">
+                        <img src="images/x.svg" alt="X" class="social-icon">
+                    </div>
+                    <div class="copyright">© Copyright</div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== JS ==================== -->
+  <script src="script.js"></script>
+
+</body>
+</html>
